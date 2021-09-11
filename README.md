@@ -6,4 +6,5 @@ Lista de tareas del Programa
 2. CRUD de prgramas de radio
 3. CRUD de patrones para las listas
 4. CRUD de las listas de canciones
-5. Reportes
+5. CRUD usuarios y login
+6. Reportes
