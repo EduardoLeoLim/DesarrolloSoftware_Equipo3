@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="recursos\imagenes\InicioSesion.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="modelo\" />
+    <Folder Include="dao\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="recursos\imagenes\InicioSesion.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
