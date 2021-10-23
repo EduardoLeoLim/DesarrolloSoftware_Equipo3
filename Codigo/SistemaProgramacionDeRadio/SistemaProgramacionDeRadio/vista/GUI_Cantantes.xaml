@@ -9,7 +9,7 @@
       Title="GUI_Cantantes">
 
     <Grid Background="White">
-        <Label Content="Cantantes" FontSize="30" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-
+        <Label Content="Datos Generales" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="10" FontFamily="Roboto" Opacity="0.7" Height="23" Width="86"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,225,0,0" Text="En construcción..." TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="92"/>
     </Grid>
 </Page>
