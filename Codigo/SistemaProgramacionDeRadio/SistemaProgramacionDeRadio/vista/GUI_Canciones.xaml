@@ -14,14 +14,14 @@
         <Label Content="Clave:" HorizontalAlignment="Left" Margin="41,43,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
         <Label Content="Titulo:" HorizontalAlignment="Left" Margin="287,47,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
         <Label Content="Cantante:" HorizontalAlignment="Left" Margin="655,47,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
-        <Label Content="Categoría:" HorizontalAlignment="Left" Margin="54,101,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
+        <Label Content="Categoría:" HorizontalAlignment="Left" Margin="41,100,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
         <Label Content="Género:" HorizontalAlignment="Left" Margin="307,101,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
         <Label Content="Prioridad:" HorizontalAlignment="Left" Margin="667,101,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
-        <Label Content="Fecha Alta:" HorizontalAlignment="Left" Margin="51,161,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
+        <Label Content="Fecha Alta:" HorizontalAlignment="Left" Margin="41,162,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
         <Label Content="Fecha Modificación:" HorizontalAlignment="Left" Margin="335,158,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="17"/>
         <Label Content="Fecha Inativación:" HorizontalAlignment="Left" Margin="690,158,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
-        <Label Content="Comentarios:" HorizontalAlignment="Left" Margin="287,429,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
-        <Label Content="Observación:" HorizontalAlignment="Left" Margin="114,429,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
+        <Label Content="Comentarios:" HorizontalAlignment="Left" Margin="41,212,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
+        <Label Content="Observación:" HorizontalAlignment="Left" Margin="41,262,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
         <TextBox HorizontalAlignment="Left" Margin="103,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="17"/>
         <TextBox HorizontalAlignment="Left" Margin="354,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" FontSize="17"/>
         <ComboBox HorizontalAlignment="Left" Margin="746,49,0,0" VerticalAlignment="Top" Width="214" FontSize="17" Height="26"/>
@@ -32,6 +32,21 @@
         <DatePicker HorizontalAlignment="Left" Margin="153,163,0,0" VerticalAlignment="Top" FontSize="17" Width="124"/>
         <DatePicker HorizontalAlignment="Left" Margin="509,161,0,0" VerticalAlignment="Top" FontSize="17" Width="124"/>
         <DatePicker HorizontalAlignment="Left" Margin="848,161,0,0" VerticalAlignment="Top" FontSize="17" Width="124"/>
-        <Label Content="En construcción..." HorizontalAlignment="Center" Margin="0,280,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold"/>
+        <DataGrid Margin="27,349,27,27"/>
+        <TextBox HorizontalAlignment="Left" Margin="162,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" FontSize="17"/>
+        <TextBox HorizontalAlignment="Left" Margin="162,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="456" FontSize="17"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="903,317,0,0" VerticalAlignment="Top" FontSize="17" Width="100" Background="#FFCC0000" Foreground="White"/>
+        <Button Content="Modificar" HorizontalAlignment="Left" Margin="798,317,0,0" VerticalAlignment="Top" FontSize="17" Width="100" Background="#FFFF6600" Foreground="White"/>
+        <Button Content="Registrar" HorizontalAlignment="Left" Margin="693,317,0,0" VerticalAlignment="Top" Width="100" FontSize="17" Background="#FF009900" Foreground="White"/>
+        <Button Content="Limiar Campos" HorizontalAlignment="Left" Margin="758,280,0,0" VerticalAlignment="Top" FontSize="17" Width="180" Background="#FF7FF67F"/>
+        <Label Content="Días Permitidos" HorizontalAlignment="Left" Margin="647,196,0,0" VerticalAlignment="Top" FontSize="8" Height="20" Width="64"/>
+        <CheckBox Content="L" HorizontalAlignment="Left" Margin="655,223,0,0" VerticalAlignment="Top" FontSize="17"/>
+        <CheckBox Content="M" HorizontalAlignment="Left" Margin="698,223,0,0" VerticalAlignment="Top" FontSize="17"/>
+        <CheckBox Content="J" HorizontalAlignment="Left" Margin="798,223,0,0" VerticalAlignment="Top" FontSize="17"/>
+        <CheckBox Content="S" HorizontalAlignment="Left" Margin="655,250,0,0" VerticalAlignment="Top" FontSize="17"/>
+        <CheckBox Content="D" HorizontalAlignment="Left" Margin="698,250,0,0" VerticalAlignment="Top" FontSize="17"/>
+        <CheckBox Content="V" HorizontalAlignment="Left" Margin="838,223,0,0" VerticalAlignment="Top" FontSize="17"/>
+        <CheckBox Content="Mi" HorizontalAlignment="Left" Margin="747,223,0,0" VerticalAlignment="Top" FontSize="17"/>
+        <TextBox HorizontalAlignment="Left" Margin="27,319,0,0" Text="Buscar..." TextWrapping="Wrap" VerticalAlignment="Top" Width="185" FontSize="17"/>
     </Grid>
 </Page>

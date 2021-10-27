@@ -5,9 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SistemaProgramacionDeRadio.vista"
         mc:Ignorable="d"
-        Title="GUI_Generos" Height="450" Width="800">
+        Title="Géneros" Height="400" Width="800" ResizeMode="NoResize">
     <Grid>
-        <Label Content="En Construcción..." HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" FontWeight="Bold"/>
-
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="78,57,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Margin="163,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="374" FontSize="17"/>
+        <DataGrid Margin="10,164,10,10"/>
+        <TextBox HorizontalAlignment="Left" Margin="10,134,0,0" Text="Buscar..." TextWrapping="Wrap" VerticalAlignment="Top" Width="185" FontSize="17"/>
+        <Button Content="Modificar" HorizontalAlignment="Left" Margin="674,132,0,0" VerticalAlignment="Top" Width="100" FontSize="17"/>
+        <Button Content="Registrar" HorizontalAlignment="Left" Margin="569,132,0,0" VerticalAlignment="Top" Width="100" FontSize="17"/>
     </Grid>
 </Window>
