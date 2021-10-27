@@ -22,5 +22,17 @@ namespace SistemaProgramacionDeRadio.vista
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            GUI_Categorias gUI_Categorias = new GUI_Categorias();
+            gUI_Categorias.ShowDialog();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            GUI_Generos gUI_Generos = new GUI_Generos();
+            gUI_Generos.ShowDialog();
+        }
     }
 }
