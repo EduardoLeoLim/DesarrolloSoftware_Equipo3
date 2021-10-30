@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="SistemaProgramacionDeRadio.recursos.controles_WPF.BotonMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SistemaProgramacionDeRadio.recursos.controles_WPF"
+             mc:Ignorable="d">
+    <StackPanel Orientation="Horizontal" Height="30">
+        <Image Source="{Binding SourceImage}"/>
+        <Label Content="{Binding Text}"/>
+    </StackPanel>
+</UserControl>
